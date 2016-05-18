@@ -1,0 +1,61 @@
+body {
+  background-color: #DAD7D7;
+}
+
+.app {
+  width: 50%;
+  background-color: white;
+  margin-left: 25%;
+}
+
+.app h1 {
+    top: -155px;
+  width: 100%;
+  font-size: 100px;
+  font-weight: 100;
+  text-align: center;
+  color: rgba(175, 47, 47, 0.15);
+}
+
+.new-todo {
+  border: none;
+  background: rgba(0, 0, 0, 0.003);
+  box-shadow: inset 0 -2px 1px rgba(0,0,0,0.03);
+}
+
+.input {
+  width: 683px;
+  height: 58px;
+}
+
+.app input {
+  font-style: italic;
+  font-weight: 300;
+  color: #e6e6e6;
+  font-size: 30px;
+}
+
+.app ul {
+  padding: 0
+}
+
+li span {
+  float: right;
+}
+
+.TodoItem {
+  width: 683px;
+  height: 40px;
+  border: 1px solid #e6e6e6;
+  list-style: none;
+  font-size: 25px;
+  font-style: normal;
+}
+.toggle {
+  width: 60px;
+  height: 16px;
+}
+.completed {
+  font-weight: 100;
+  color: #e6e6e6;
+}

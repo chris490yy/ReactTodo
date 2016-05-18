@@ -1,0 +1,26 @@
+{
+  "name": "react-todo",
+  "version": "1.0.0",
+  "description": "Todo App",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chris490yy/ReactTodo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chris490yy/ReactTodo/issues"
+  },
+  "homepage": "https://github.com/chris490yy/ReactTodo#readme",
+  "dependencies": {
+    "react": "^15.0.2",
+    "react-bootstrap": "^0.29.4",
+    "react-dom": "^15.0.2",
+    "webpack": "^1.13.0"
+  }
+}
